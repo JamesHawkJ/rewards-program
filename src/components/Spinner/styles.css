@@ -1,0 +1,23 @@
+.spinner {
+  margin: auto;
+  height: 10vmin;
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .spinner {
+    animation: spinner-spin infinite 20s linear;
+  }
+}
+
+@keyframes spinner-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

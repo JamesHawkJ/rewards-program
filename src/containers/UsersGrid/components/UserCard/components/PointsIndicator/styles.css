@@ -1,0 +1,12 @@
+.points-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  justify-content: space-between;
+}
+
+.small {
+  margin: 0;
+  height: 5vmin;
+}
